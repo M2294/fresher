@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=320, initial-scale=2.3, user-scalable=no">
+  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta name="viewport" content="initial-scale=2.3, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="CSS/edit-profile.css">
+  <link rel="stylesheet" href="CSS/media-footer.css">
+  <link rel="stylesheet" href="CSS/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  <title>Freshers</title>
+
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <div class="container-fluid">
+		  <a class="navbar-brand text" href="#">Freshers</a>
+		 
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a class="nav-link " aria-current="page" href="Jobs.html">Jobs</a>
+			  </li>
+		   
+			  <li class="nav-item">
+				<a class="nav-link active" href="emp-profile.html">Profile</a>
+			  </li>
+    	
+      
+          <li class="nav-item dropdown logout">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-gear-fill"> More Options </i> 
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="privacy.html">Account Privacy</a></li>
+              <li><a class="dropdown-item" href="edit-profile.html">Edit Profile</a></li>
+              <li><a class="dropdown-item" href="track.html"> Track your job</a></li>
+              <li><a class="dropdown-item" href="saved.html"> Saved jobs</a></li>
+              <hr>
+              <a  href="index.html"> <i class=" bi bi-box-arrow-right"></i> LogOut</a>
+            </ul>
+          </li>
+    
+   
+			</ul>
+  
+   
+		  </div>
+        
+		</div>
+	  </nav>  
+<div id="page-container">
+<div class="information">
+    <div class="form1" >
+        <div class="info-header">
+            <h3> Edit Personal</h3>
+            <hr>
+        </div>
+      <div class="upload-img">
+        <img src="imgs/user.png" class="img-size"id="output"/> <br>
+        <input class="up" type="file" accept="image/*" onchange="loadFile(event)">
+      </div>
+      <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Full Name" >
+            <label for="floatingInput">Full Name</label>
+      </div> 
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" >
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatingInput" placeholder=" Location" >
+        <label for="floatingInput">Location</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatingInput" placeholder=" Company" >
+        <label for="floatingInput">Company</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatingInput" placeholder=" Current Title" >
+        <label for="floatingInput">Current Title</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatingInput" placeholder=" Mobile" >
+        <label for="floatingInput">Mobile</label>
+      </div>
+      <div class="birth">
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday">
+      </div>
+
+
+
+    </div>
+   <!-------------------------->
+
+    <div class="form2" >
+        <div class="info-header">
+            <h3>Edit Experiance</h3>  
+            <hr>
+        </div>
+     
+      <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Current Comany" >
+            <label for="floatingInput">Current Comany</label>
+      </div> 
+  
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatingInput" placeholder=" Current Title" >
+        <label for="floatingInput">Current Title</label>
+      </div>
+
+      <div class="Time">
+          <div class="tim">
+           <p>From : <input type="date"  name="from"> </p> 
+           <p>To : <input type="date"  name="to"> </p> 
+        </div>
+      </div>
+
+      <div class="desc">
+        <p>Job Description</p> 
+
+    
+        <div id="footer">
+            <form action="#" id="form-add">
+                <input type="text" placeholder="Add Somthing...">
+               
+              
+            </form>
+        </div>
+        <div id="main">
+        <ul id="list">
+           
+        </ul>
+        </div>
+      </div>
+    </div>
+   <!-------------------------->
+    <div class="form3" >
+        <div class="info-header">
+            <h3> Edit Skills</h3> 
+            <hr>
+        </div>
+
+        <div class="desc">
+            <p>Working Skills</p> 
+            <div id="footer6">
+                <form action="#" id="form-add6">
+                    <input type="text" placeholder="Add Somthing...">
+                   
+                  
+                </form>
+            </div>
+            <div id="main6">
+            <ul id="list6"> </ul>
+            </div>
+        
+          </div>
+
+          <div class="desc">
+            <p>Languages Skills</p> 
+            <div id="footer7">
+                <form action="#" id="form-add7">
+                    <input type="text" placeholder="Add Somthing...">
+                   
+                  
+                </form>
+            </div>
+            <div id="main7">
+            <ul id="list7"> </ul>
+            </div>
+        
+          </div>
+
+          <div class="desc">
+            <p>Computer Skills</p> 
+            <div id="footer8">
+                <form action="#" id="form-add8">
+                    <input type="text" placeholder="Add Somthing...">
+                   
+                  
+                </form>
+            </div>
+            <div id="main8">
+            <ul id="list8"> </ul>
+            </div>
+        
+          </div>
+    </div>
+    <!-------------------------->
+    <div class="form4" >
+        <div class="info-header">
+            <h3> Edit Education</h3>
+            <hr>
+        </div>
+  
+      <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Graduated from  " >
+            <label for="floatingInput">Graduated from</label>
+      </div> 
+
+      <div class="cv">
+        <p>Upload your CV :</p>
+        <form action="/action_page.php">
+          <label for="myfile">Select a file:</label>
+          <input type="file" id="myfile" name="myfile"><br><br>
+         
+        </form>
+      </div>
+
+
+    </div>
+    <!-------------------------->
+    <div class="form5" >
+        <div class="info-header">
+            <h3> Edit Certificates & Courses</h3>
+            <hr>
+        </div>
+     
+      <div class="desc">
+        <p>Certificates</p> 
+        <div id="footer2">
+            <form action="#" id="form-add2">
+                <input type="text" placeholder="Add Somthing...">
+               
+              
+            </form>
+        </div>
+        <div id="main2">
+        <ul id="list2"> </ul>
+        </div>
+
+      </div>
+
+      <div class="desc">
+        <p>Cources</p> 
+        <div id="footer3">
+            <form action="#" id="form-add3">
+                <input type="text" placeholder="Add Somthing...">
+               
+              
+            </form>
+        </div>
+        <div id="main3">
+        <ul id="list3"> </ul>
+        </div>
+
+      </div>
+    </div>
+
+  <!-------------------------->
+  <div class="form6" >
+    <div class="info-header">
+        <h3> Edit Personal Qualification & Hobbies</h3>
+        <hr>
+    </div>
+ 
+  <div class="desc">
+    <p>Personal Qualification</p> 
+    <div id="footer4">
+        <form action="#" id="form-add4">
+            <input type="text" placeholder="Add Somthing...">
+           
+          
+        </form>
+    </div>
+    <div id="main4">
+    <ul id="list4"> </ul>
+    </div>
+
+  </div>
+
+  <div class="desc">
+    <p>Hobbies</p> 
+    <div id="footer5">
+        <form action="#" id="form-add5">
+            <input type="text" placeholder="Add Somthing...">
+           
+          
+        </form>
+    </div>
+    <div id="main5">
+    <ul id="list5"> </ul>
+    </div>
+
+  </div>
+  <a href="profile.html"> <button type="button" class="shadow-none btn btn-outline-warning">Submit</button></a>
+
+</div>
+<!-------------------------->
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+  
+    <li class="page-item active2" data-cont=".form1"><a class="page-link" ><img src="imgs/circle.png" class="bi"></a></li>
+    <li class="page-item" data-cont=".form2"><a class="page-link"><img src="imgs/circle.png" class="bi"></a></li>
+    <li class="page-item" data-cont=".form3"><a class="page-link" ><img src="imgs/circle.png" class="bi"></a></li>
+    <li class="page-item" data-cont=".form4"><a class="page-link" ><img src="imgs/circle.png" class="bi"></a></li>
+    <li class="page-item" data-cont=".form5"><a class="page-link" ><img src="imgs/circle.png" class="bi"></a></li>
+    <li class="page-item" data-cont=".form6"><a class="page-link" ><img src="imgs/circle.png" class="bi"></a></li>
+  </ul>
+</nav>
+      <!-------------------------->
+
+</div>
+</div>
+      <div class="foot-space"></div>
+      <footer class="footer-distributed" >
+      
+        <div class="footer-left">
+      
+          <img class="hfresh"src="imgs/fresh.jpeg">
+      
+       
+        </div>
+      
+        <div class="footer-center">
+
+
+          <div class="info">
+         
+        
+            <div class="address">
+        
+              <p class="t"> <i class="bi bi-telephone-fill"> </i>  +1.555.555.5555 </p> 
+            </div>
+        
+            <div class="email">
+            
+              <p class="t"> <i class="bi bi-envelope-open"> </i><a href="mailto:support@company.com">freshers@gmail.com</a></p>
+            </div>
+        
+          </div>
+        
+        
+        
+          </div>
+          
+
+
+          <div class="footer-right">
+
+            <div class="right">
+            <p class="footer-company-about">
+              
+            <span>About the company</span>
+              Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            </p>
+        
+            </div>
+          </div>
+      
+        <div class="footer-icons">
+          <div class="icons">
+            <h5>Social Media</h5>
+            <i class="bi bi-facebook fb"></i>
+            <i class="bi bi-youtube yt"></i>
+            <i class="bi bi-twitter tw"></i>
+          <p class="footer-company-name">Freshers © 2022 All Rights Reserved</p>
+      
+        </div>
+        </div>
+      
+      </footer>
+          <script src="JS/js/create.js"></script>
+          <script src="JS/js/bootstrap.min.js"></script>
+      </body>
+      </html>   

@@ -1,0 +1,371 @@
+
+body {
+    margin:0;
+    padding:0;
+
+}
+#container {
+    min-height: calc(100vh - 180px);
+}
+ 
+.navbar-light .navbar-brand {
+	color: orange !important;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}.navbar{
+    width: 100%;
+}
+.navbar-nav {
+	
+    width: 50%;
+}
+.navbar-nav2{
+    	width: 50%;;
+        float: right;
+		display: flex;
+		flex-direction: column;
+		padding-left: 0;
+		margin-bottom: 0;
+		list-style: none;
+
+}
+.dropdown-toggle::after {
+    display:none !important;
+ 
+}
+.nav-item2 { margin-left: 69%;}
+.logout i {font-style: normal; padding-left:15px}
+.logout a{
+    text-decoration: none !important;
+    color: black;
+}
+.logout a:hover{
+    text-decoration: none !important;
+    color: orange;
+}
+.logout .bi-gear-fill {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.privacy{
+    width:40%;
+    margin-left: 30%;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+.account{
+    padding: 20px;
+    width:80%;
+    margin-left: 10%;
+ 
+}
+.input-group{
+    margin-top: 3%;
+}
+
+.btn-outline-warning{
+    background-color: orange !important;
+    border-color: orange !important;
+    color: white !important;
+    margin-top: 10px;
+  margin-left: 40%;
+}
+.account h6{
+    text-align: center;
+}
+.foot-space{margin-top: 30px;}.footer-distributed {
+	background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	height: 180px;
+	font: bold 16px sans-serif;
+	display: flex;
+	
+
+
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right ,
+.footer-distributed .footer-icons  {
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+	width:15%;
+	height: 170px;
+
+}
+
+.footer-distributed .footer-left img {
+	width: 100%;
+	height: 170px;
+}
+
+
+
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+	width: 35%;
+	height: 170px;
+   
+
+}
+
+.info {
+	width: 60%;
+	margin-left: 20%;
+	height: 170px;
+
+}
+
+.address ,.email{
+	width:80%;height:85px;
+    margin-left: 10%;
+}
+
+.t {
+	padding-top: 25px;
+}
+
+
+.footer-distributed .footer-center .bi-telephone-fill{
+	background-color: none !important;
+	color: orange !important;
+    padding-right: 15px;
+	font-size: 20px;
+}
+.footer-distributed .footer-center .bi-envelope-open{
+	background-color: none !important;
+	color: orange !important;
+    padding-right: 15px;
+	font-size: 20px;
+}
+
+.footer-distributed .footer-center p {
+
+	color: #ffffff;
+	font-weight: 400;
+
+}
+.footer-distributed .footer-center p a {
+	color: white;
+	text-decoration: none;
+	;
+}
+/* Footer Right */
+
+.footer-distributed .footer-right {
+	width: 20%;
+
+}
+.right{padding-top:25px}
+.footer-distributed .footer-company-about {
+	line-height: 20px;
+	color: #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+/* Footer icons */
+.footer-distributed .footer-icons {
+	width: 30%;
+
+}
+
+.icons {
+	width: 70%;
+	margin-left: 15%;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+.icons h5 {
+	color: white
+}
+
+.footer-company-name {
+	text-align: center;
+	font-size: 12px;
+	padding-top: 35px
+}
+.footer-distributed .footer-icons .fb ,
+.footer-distributed .footer-icons .yt ,
+.footer-distributed .footer-icons .tw 
+{
+    color:rgb(57, 57, 57);
+    padding-left: 10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.footer-distributed .footer-icons .fb:hover { color:blue; }
+.footer-distributed .footer-icons .yt:hover { color:red; }
+.footer-distributed .footer-icons .tw:hover {  color:rgb(0, 225, 255);}  
+
+
+@media (min-width:300px){
+	.privacy {
+		width: 90%;
+		margin-left: 5%;
+		background-color: whitesmoke;
+		box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.account {
+		padding: 20px;
+		width: 90%;
+		margin-left: 5%;
+	}
+
+}
+
+@media (min-width:400px){
+	.privacy {
+		width: 80%;
+		margin-left: 10%;
+		background-color: whitesmoke;
+		box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.account {
+		padding: 20px;
+		width: 90%;
+		margin-left: 5%;
+	}
+
+}
+@media (min-width:500px){
+	.privacy {
+		width: 70%;
+		margin-left: 15%;
+		background-color: whitesmoke;
+		box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.account {
+		padding: 20px;
+		width: 90%;
+		margin-left: 5%;
+	}
+
+}
+@media (min-width:600px){
+	.privacy {
+		width: 60%;
+		margin-left: 20%;
+		background-color: whitesmoke;
+		box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.account {
+		padding: 20px;
+		width: 90%;
+		margin-left: 5%;
+	}
+
+}
+@media (min-width:700px){
+	.privacy {
+		width: 60%;
+		margin-left: 20%;
+		background-color: whitesmoke;
+		box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.account {
+		padding: 20px;
+		width: 90%;
+		margin-left: 5%;
+	}
+
+}
+@media (min-width:800px){
+	.privacy {
+		width: 50%;
+		margin-left: 25%;
+		background-color: whitesmoke;
+		box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.account {
+		padding: 20px;
+		width: 90%;
+		margin-left: 5%;
+	}
+
+}
+@media (min-width:800px){
+	.privacy {
+		width: 40%;
+		margin-left: 30%;
+		background-color: whitesmoke;
+		box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.account {
+		padding: 20px;
+		width: 90%;
+		margin-left: 5%;
+	}
+
+}
+@media (min-width:900px){
+	.privacy {
+		width: 40%;
+		margin-left: 30%;
+		background-color: whitesmoke;
+		box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.account {
+		padding: 20px;
+		width: 90%;
+		margin-left: 5%;
+	}
+
+}
+@media (min-width:1000px){
+	.privacy {
+		width: 30%;
+		margin-left: 35%;
+		background-color: whitesmoke;
+		box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.account {
+		padding: 20px;
+		width: 90%;
+		margin-left: 5%;
+	}
+
+}

@@ -1,0 +1,259 @@
+body {
+    margin:0;
+    padding:0;
+
+}
+#container {
+    min-height: calc(100vh - 180px);
+}
+.navbar-light .navbar-brand {
+    color: orange !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.effect {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.effect h1 {
+    text-decoration: none;
+    text-align: center;
+}
+
+.search {
+    width: 100%;    
+    margin-bottom: 20px;
+}
+
+.search .container-fluid {
+    margin-top: 20px;
+   
+}
+.container-fluid form{display: flex; width:50%;margin-left: 25%;}
+.jobs {
+    width: 100%;
+    display: flex;
+    visibility: visible;
+    margin: 3px 3px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.job-search {
+    width: 50%;
+    margin-left: 25%;
+    
+   
+}
+
+.card-job {
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 2%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 15px;
+}
+.track img {width:120px;height: 120px; float: right;}
+.track-img {width:25%; float: right;}
+.card-job h6 {
+    font-weight: bold;
+} 
+
+.card-job p {
+    line-height: 10px;
+}
+
+.box {
+    background-color: whitesmoke;
+    width: 120px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.bi-caret-right-square-fill {
+    color: blue;
+}
+.bold{font-weight: bold;}
+
+.parg {
+    color: black;
+    font-size: 14px;
+}
+
+
+
+.bi-heart-fill {
+    filter: invert(8%) sepia(66%) saturate(7113%) hue-rotate(5deg) brightness(87%) contrast(112%);
+    width: 120px;
+    padding: 0px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.bi-heart-fill:hover {
+    color: #92999f;
+}
+
+.all {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 10px;
+    height: 210px;
+    margin-bottom: 15px;
+}
+
+.bot{display: flex;margin-bottom: 15px;}
+.bot button {margin-bottom: 15px; }
+.bot i {margin-left: 10px;}.footer-distributed {
+	background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	height: 180px;
+	font: bold 16px sans-serif;
+	display: flex;
+	
+
+
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right ,
+.footer-distributed .footer-icons  {
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+	width:15%;
+	height: 170px;
+
+}
+
+.footer-distributed .footer-left img {
+	width: 100%;
+	height: 170px;
+}
+
+
+
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+	width: 35%;
+	height: 170px;
+   
+
+}
+
+.info {
+	width: 60%;
+	margin-left: 20%;
+	height: 170px;
+
+}
+
+.address ,.email{
+	width:80%;height:85px;
+    margin-left: 10%;
+}
+
+.t {
+	padding-top: 25px;
+}
+
+
+.footer-distributed .footer-center .bi-telephone-fill{
+	background-color: none !important;
+	color: orange !important;
+    padding-right: 15px;
+	font-size: 20px;
+}
+.footer-distributed .footer-center .bi-envelope-open{
+	background-color: none !important;
+	color: orange !important;
+    padding-right: 15px;
+	font-size: 20px;
+}
+
+.footer-distributed .footer-center p {
+
+	color: #ffffff;
+	font-weight: 400;
+
+}
+.footer-distributed .footer-center p a {
+	color: white;
+	text-decoration: none;
+	;
+}
+/* Footer Right */
+
+.footer-distributed .footer-right {
+	width: 20%;
+
+}
+.right{padding-top:25px}
+.footer-distributed .footer-company-about {
+	line-height: 20px;
+	color: #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+/* Footer icons */
+.footer-distributed .footer-icons {
+	width: 30%;
+
+}
+
+.icons {
+	width: 70%;
+	margin-left: 15%;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+.icons h5 {
+	color: white
+}
+
+.footer-company-name {
+	text-align: center;
+	font-size: 12px;
+	padding-top: 35px
+}
+.footer-distributed .footer-icons .fb ,
+.footer-distributed .footer-icons .yt ,
+.footer-distributed .footer-icons .tw 
+{
+    color:rgb(57, 57, 57);
+    padding-left: 10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.footer-distributed .footer-icons .fb:hover { color:blue; }
+.footer-distributed .footer-icons .yt:hover { color:red; }
+.footer-distributed .footer-icons .tw:hover {  color:rgb(0, 225, 255);}  
+
+.active{color: black !important}
+

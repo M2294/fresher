@@ -1,0 +1,775 @@
+body {
+    margin:0;
+    padding:0;
+ 
+}
+#container {
+    min-height: calc(100vh - 180px);
+}
+
+.navbar-light .navbar-brand {
+	color: orange !important;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}.navbar{
+    width: 100%;
+}
+.navbar-nav {
+	
+    width: 50%;
+}
+.navbar-nav2{
+    	width: 50%;;
+        float: right;
+		display: flex;
+		flex-direction: column;
+		padding-left: 0;
+		margin-bottom: 0;
+		list-style: none;
+
+}
+.dropdown-toggle::after {
+    display:none !important;
+ 
+}
+.nav-item2 { margin-left: 69%;}
+.logout i {font-style: normal; padding-left:15px}
+.logout a{
+    text-decoration: none !important;
+    color: black;
+}
+.logout a:hover{
+    text-decoration: none !important;
+    color: orange;
+}
+.logout .bi-gear-fill {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.foot-space{margin-top: 30px;}.footer-distributed {
+	background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	height: 180px;
+	font: bold 16px sans-serif;
+	display: flex;
+	
+
+
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right ,
+.footer-distributed .footer-icons  {
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+	width:15%;
+	height: 170px;
+
+}
+
+.footer-distributed .footer-left img {
+	width: 100%;
+	height: 170px;
+}
+
+
+
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+	width: 35%;
+	height: 170px;
+   
+
+}
+
+.info {
+	width: 60%;
+	margin-left: 20%;
+	height: 170px;
+
+}
+
+.address ,.email{
+	width:80%;height:85px;
+    margin-left: 10%;
+}
+
+.t {
+	padding-top: 25px;
+}
+
+
+.footer-distributed .footer-center .bi-telephone-fill{
+	background-color: none !important;
+	color: orange !important;
+    padding-right: 15px;
+	font-size: 20px;
+}
+.footer-distributed .footer-center .bi-envelope-open{
+	background-color: none !important;
+	color: orange !important;
+    padding-right: 15px;
+	font-size: 20px;
+}
+
+.footer-distributed .footer-center p {
+
+	color: #ffffff;
+	font-weight: 400;
+
+}
+.footer-distributed .footer-center p a {
+	color: white;
+	text-decoration: none;
+	;
+}
+/* Footer Right */
+
+.footer-distributed .footer-right {
+	width: 20%;
+
+}
+.right{padding-top:25px}
+.footer-distributed .footer-company-about {
+	line-height: 20px;
+	color: #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+/* Footer icons */
+.footer-distributed .footer-icons {
+	width: 30%;
+
+}
+
+.icons {
+	width: 70%;
+	margin-left: 15%;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+.icons h5 {
+	color: white
+}
+
+.footer-company-name {
+	text-align: center;
+	font-size: 12px;
+	padding-top: 35px
+}
+.footer-distributed .footer-icons .fb ,
+.footer-distributed .footer-icons .yt ,
+.footer-distributed .footer-icons .tw 
+{
+    color:rgb(57, 57, 57);
+    padding-left: 10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.footer-distributed .footer-icons .fb:hover { color:blue; }
+.footer-distributed .footer-icons .yt:hover { color:red; }
+.footer-distributed .footer-icons .tw:hover {  color:rgb(0, 225, 255);}  
+
+
+.information
+{
+    width:100%;
+    height: auto;
+}
+.form1{
+    width:60%;
+    margin-left: 20%;
+}
+.form2 ,
+.form3 ,
+.form4,
+.form5 ,
+.form6 {
+    width:60%;
+    margin-left: 20%;
+    display: none;
+}
+
+.info-header{
+    color: rgb(236 160 0);
+    margin-top: 15px;
+}
+.form2 .info-header{
+  display: flex;
+}
+.birth{
+    border:1px solid #c4ccd3;
+    padding: 15px;
+    border-radius: 3px;
+  
+}
+.Time{
+    border:1px solid #c4ccd3;
+    padding: 15px;
+    border-radius: 3px;
+ 
+}
+.desc{
+    border:1px solid #c4ccd3;
+    padding: 15px;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+.add{display: flex;}
+.add i{cursor: pointer;}
+.add p{ text-decoration:underline;margin-left:10px;cursor: pointer;}
+.tim{
+    display: flex;
+    padding:5px 0px;
+}
+.tim p {
+    color: #4a4c4e;
+    padding-left: 5px;
+    
+}
+ input[type]{
+    color: #92999f;
+    padding-left: 5px;
+    
+}
+.img-size{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    border:1px solid #c4ccd3;
+    align-items: center;
+}
+.up{margin:10px 0px}
+
+.page-link {
+    position: relative;
+    display: block;
+    color: orange !important;
+    text-decoration: none;
+    align-items: center;
+    background-color: transparent !important ;
+    border: 0px solid white !important;
+}
+.pagination {
+    display: flex;
+    margin-left: 40%;
+    align-items: center;
+    list-style: none;
+    margin-top: 20px;
+}
+ .bi-circle:hover {
+   background-color: orange !important;
+   border-radius: 50%;
+   
+}
+.active2 .bi{
+background-color: orange !important;
+border-radius: 50%;
+}
+
+
+#footer input[type=text] ,
+#footer2 input[type=text] ,
+#footer3 input[type=text],
+#footer4 input[type=text],
+#footer5 input[type=text] ,
+#footer6 input[type=text] ,
+#footer7 input[type=text] ,
+#footer8 input[type=text] 
+{
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 100%;
+    color: gray;
+    outline: none;
+}
+#main, #main2 ,#main3 ,#main4 , #main5 ,#main6 ,#main7 ,#main8{
+    padding: 20px;
+}
+
+
+
+#main ul , #main2 ul , #main3 ul ,#main4 ul ,
+ #main5 ul , #main6 ul , #main7 ul , #main8 ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    
+}
+
+#main ul li , #main2 ul li  , #main3 ul li ,
+ #main4 ul li , #main5 ul li , #main6 ul li ,
+ #main7 ul li , #main8 ul li
+ { 
+    margin-bottom: 20px;
+    padding: 10px 5px;
+    border-left: 5px solid #ddd;
+    display: block;
+    justify-content: space-between;
+    opacity: 1;
+    transition: all .5s ease;
+    overflow: hidden;
+}
+
+
+
+#main ul li input[type=text] ,
+#main2 ul li input[type=text] ,
+#main3 ul li input[type=text] ,
+#main4 ul li input[type=text] ,
+#main5 ul li input[type=text] ,
+#main6 ul li input[type=text] ,
+#main7 ul li input[type=text] ,
+#main8 ul li input[type=text]
+{
+    width: 550px;
+    padding: 9px 8px;
+    color: #444;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    cursor: context-menu;
+    border: none;
+}
+
+
+#main ul li input[type=text].input-border ,
+#main2 ul li input[type=text].input-border ,
+#main3 ul li input[type=text].input-border,
+#main4 ul li input[type=text].input-border,
+#main5 ul li input[type=text].input-border ,
+#main6 ul li input[type=text].input-border ,
+#main7 ul li input[type=text].input-border ,
+#main8 ul li input[type=text].input-border 
+{
+    border: 1px solid #ccc !important;
+}
+
+
+#main ul li .name .saveInfo ,
+#main2 ul li .name .saveInfo ,
+#main3 ul li .name .saveInfo ,
+#main4 ul li .name .saveInfo ,
+#main5 ul li .name .saveInfo ,
+#main6 ul li .name .saveInfo ,
+#main7 ul li .name .saveInfo ,
+#main8 ul li .name .saveInfo 
+{
+    font-size: 70%;
+    margin-top: 5px;
+    display: none;
+}
+
+.edit , .delete ,.plus{
+    font-size: 25px;
+    cursor: pointer;
+}
+.edit:hover{
+    color: green;
+}
+.delete:hover{
+    color: red;
+}
+
+.plus{
+   
+    font-size: 30px;
+    margin-left:auto;
+   
+  
+}
+.btn-outline-warning{
+    background-color: orange !important;
+    border-color: orange !important;
+    color: white !important;
+    margin-top: 10px;;
+}
+
+.cv{
+    border:1px solid #c4ccd3;
+    padding: 15px;
+    border-radius: 3px;
+}
+.cv p{
+    color: orange;
+}
+
+
+
+/***************************************************/
+@media (min-width:300px){
+	.page-link {
+		position: relative;
+		display: block;
+		color: orange !important;
+		text-decoration: none;
+		align-items: center;
+		background-color: transparent !important ;
+		border: 0px solid white !important;
+		font-size: 14px;
+	}
+	.pagination {
+		display: flex;
+		margin-left: 18%;
+		align-items: center;
+		list-style: none;
+		margin-top: 20px;
+	}
+	.tim {
+		display: block;
+		padding: 5px 0px;
+	}
+	.form1{
+		width:80%;
+		margin-left: 10%;
+	}
+    .form2 ,
+    .form3 ,
+    .form4,
+    .form5 ,
+    .form6 {
+         width:80%;
+         margin-left: 10%;
+         display: none;
+     }
+	#footer input[type=text], #footer2 input[type=text], #footer3 input[type=text], #footer4 input[type=text], #footer5 input[type=text], #footer6 input[type=text], #footer7 input[type=text], #footer8 input[type=text] {
+		width: 90%;
+		margin-left:5%
+	
+	}
+	#main ul li input[type=text], #main2 ul li input[type=text], #main3 ul li input[type=text], #main4 ul li input[type=text], #main5 ul li input[type=text], #main6 ul li input[type=text], #main7 ul li input[type=text], #main8 ul li input[type=text] {
+		width: 60%;
+		margin-left:0%
+	
+	}
+	.cv {
+		border: 1px solid #c4ccd3;
+		padding: 11px;
+		border-radius: 3px;
+		width: 100%;
+	}
+	#main, #main2, #main3, #main4, #main5, #main6, #main7, #main8 {
+		padding: 5px;
+	}
+	
+
+}
+
+@media (min-width:400px){
+	.pagination {
+		display: flex;
+		margin-left: 21%;
+		align-items: center;
+		list-style: none;
+		margin-top: 20px;
+	}
+  .tim {
+    display: block;
+    padding: 5px 0px;
+}
+.form1{
+	width:80%;
+	margin-left: 10%;
+}
+.form2 ,
+.form3 ,
+.form4,
+.form5 ,
+.form6 {
+	 width:80%;
+	 margin-left: 10%;
+	 display: none;
+ }
+#footer input[type=text], #footer2 input[type=text], #footer3 input[type=text], #footer4 input[type=text], #footer5 input[type=text], #footer6 input[type=text], #footer7 input[type=text], #footer8 input[type=text] {
+	width: 90%;
+	margin-left:5%
+
+}
+#main ul li input[type=text], #main2 ul li input[type=text], #main3 ul li input[type=text], #main4 ul li input[type=text], #main5 ul li input[type=text], #main6 ul li input[type=text], #main7 ul li input[type=text], #main8 ul li input[type=text] {
+	width: 75%;
+	margin-left:0%
+
+}
+.cv {
+	border: 1px solid #c4ccd3;
+	padding: 11px;
+	border-radius: 3px;
+	width: 100%;
+}
+#main, #main2, #main3, #main4, #main5, #main6, #main7, #main8 {
+	padding: 5px;
+}
+}
+@media (min-width:500px){
+	.pagination {
+		display: flex;
+		margin-left: 25%;
+		align-items: center;
+		list-style: none;
+		margin-top: 20px;
+	}
+  .tim {
+    display: block;
+    padding: 5px 0px;
+}.form1{
+	width:80%;
+	margin-left: 10%;
+}
+.form2 ,
+.form3 ,
+.form4,
+.form5 ,
+.form6 {
+	 width:80%;
+	 margin-left: 10%;
+	 display: none;
+ }
+#footer input[type=text], #footer2 input[type=text], #footer3 input[type=text], #footer4 input[type=text], #footer5 input[type=text], #footer6 input[type=text], #footer7 input[type=text], #footer8 input[type=text] {
+	width: 90%;
+	margin-left:5%
+
+}
+#main ul li input[type=text], #main2 ul li input[type=text], #main3 ul li input[type=text], #main4 ul li input[type=text], #main5 ul li input[type=text], #main6 ul li input[type=text], #main7 ul li input[type=text], #main8 ul li input[type=text] {
+	width: 80%;
+	margin-left:0%
+
+}
+#main, #main2, #main3, #main4, #main5, #main6, #main7, #main8 {
+    padding: 5px;
+}
+.cv {
+	border: 1px solid #c4ccd3;
+	padding: 11px;
+	border-radius: 3px;
+	width: 100%;
+}
+}
+
+@media (min-width:600px){
+	.pagination {
+		display: flex;
+		margin-left: 30%;
+		align-items: center;
+		list-style: none;
+		margin-top: 20px;
+	}
+	.form1{
+		width:80%;
+		margin-left: 10%;
+	}
+	.form2 ,
+	.form3 ,
+	.form4,
+	.form5 ,
+	.form6 {
+		 width:80%;
+		 margin-left: 10%;
+		 display: none;
+	 }
+	#footer input[type=text], #footer2 input[type=text], #footer3 input[type=text], #footer4 input[type=text], #footer5 input[type=text], #footer6 input[type=text], #footer7 input[type=text], #footer8 input[type=text] {
+		width: 90%;
+		margin-left:5%
+	
+	}
+	#main ul li input[type=text], #main2 ul li input[type=text], #main3 ul li input[type=text], #main4 ul li input[type=text], #main5 ul li input[type=text], #main6 ul li input[type=text], #main7 ul li input[type=text], #main8 ul li input[type=text] {
+		width: 80%;
+		margin-left: 0%;
+		
+	
+	}
+.cv {
+	border: 1px solid #c4ccd3;
+	padding: 11px;
+	border-radius: 3px;
+	width: 100%;
+	
+}
+
+}
+@media (min-width:700px){
+	.pagination {
+		display: flex;
+		margin-left: 35%;
+		align-items: center;
+		list-style: none;
+		margin-top: 20px;
+	}
+	.form1{
+		width:80%;
+		margin-left: 10%;
+	}
+	.form2 ,
+	.form3 ,
+	.form4,
+	.form5 ,
+	.form6 {
+		 width:80%;
+		 margin-left: 10%;
+		 display: none;
+	 }
+	#footer input[type=text], #footer2 input[type=text], #footer3 input[type=text], #footer4 input[type=text], #footer5 input[type=text], #footer6 input[type=text], #footer7 input[type=text], #footer8 input[type=text] {
+		width: 90%;
+		margin-left:5%
+	
+	}
+	#main ul li input[type=text], #main2 ul li input[type=text], #main3 ul li input[type=text], #main4 ul li input[type=text], #main5 ul li input[type=text], #main6 ul li input[type=text], #main7 ul li input[type=text], #main8 ul li input[type=text] {
+		width: 85%;
+		margin-left: 0%;
+	
+	}
+.cv {
+	border: 1px solid #c4ccd3;
+	padding: 11px;
+	border-radius: 3px;
+	width: 100%;
+	
+}
+
+}
+@media (min-width:800px){
+	.pagination {
+		display: flex;
+		margin-left: 35%;
+		align-items: center;
+		list-style: none;
+		margin-top: 20px;
+	}
+		.form1{
+			width:80%;
+			margin-left: 10%;
+		}
+		.form2 ,
+		.form3 ,
+		.form4,
+		.form5 ,
+		.form6 {
+			 width:80%;
+			 margin-left: 10%;
+			 display: none;
+		 }
+		#footer input[type=text], #footer2 input[type=text], #footer3 input[type=text], #footer4 input[type=text], #footer5 input[type=text], #footer6 input[type=text], #footer7 input[type=text], #footer8 input[type=text] {
+			width: 90%;
+			margin-left:5%
+		
+		}
+		#main ul li input[type=text], #main2 ul li input[type=text], #main3 ul li input[type=text], #main4 ul li input[type=text], #main5 ul li input[type=text], #main6 ul li input[type=text], #main7 ul li input[type=text], #main8 ul li input[type=text] {
+			width: 85%;
+			margin-left: 0%;
+		
+		}
+	.cv {
+		border: 1px solid #c4ccd3;
+		padding: 11px;
+		border-radius: 3px;
+		width: 100%;
+		
+	
+}
+	}
+@media (min-width:900px){
+	.pagination {
+		display: flex;
+		margin-left: 35%;
+		align-items: center;
+		list-style: none;
+		margin-top: 20px;
+	}
+	.form1{
+		width:80%;
+		margin-left: 10%;
+	}
+	.form2 ,
+	.form3 ,
+	.form4,
+	.form5 ,
+	.form6 {
+		 width:80%;
+		 margin-left: 10%;
+		 display: none;
+	 }
+	#footer input[type=text], #footer2 input[type=text], #footer3 input[type=text], #footer4 input[type=text], #footer5 input[type=text], #footer6 input[type=text], #footer7 input[type=text], #footer8 input[type=text] {
+		width: 90%;
+		margin-left:5%
+	
+	}
+	#main ul li input[type=text], #main2 ul li input[type=text], #main3 ul li input[type=text], #main4 ul li input[type=text], #main5 ul li input[type=text], #main6 ul li input[type=text], #main7 ul li input[type=text], #main8 ul li input[type=text] {
+		width: 85%;
+		margin-left: 0%;
+	
+	}
+.cv {
+	border: 1px solid #c4ccd3;
+	padding: 11px;
+	border-radius: 3px;
+	width: 100%;
+	
+}
+}
+@media (min-width:1000px){
+	.pagination {
+		display: flex;
+		margin-left: 40%;
+		align-items: center;
+		list-style: none;
+		margin-top: 20px;
+	}
+	
+	
+	.form1{
+		width:60%;
+		margin-left: 20%;
+	}
+	.form2 ,
+	.form3 ,
+	.form4,
+	.form5 ,
+	.form6 {
+		 width:60%;
+		 margin-left: 20%;
+		 display: none;
+	 }
+	#footer input[type=text], #footer2 input[type=text], #footer3 input[type=text], #footer4 input[type=text], #footer5 input[type=text], #footer6 input[type=text], #footer7 input[type=text], #footer8 input[type=text] {
+		width: 90%;
+		margin-left:5%
+	
+	}
+	#main ul li input[type=text], #main2 ul li input[type=text], #main3 ul li input[type=text], #main4 ul li input[type=text], #main5 ul li input[type=text], #main6 ul li input[type=text], #main7 ul li input[type=text], #main8 ul li input[type=text] {
+		width: 85%;
+		margin-left: 0%;
+	
+	}
+.cv {
+	border: 1px solid #c4ccd3;
+	padding: 11px;
+	border-radius: 3px;
+	width: 100%;
+	
+}
+}

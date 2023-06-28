@@ -1,0 +1,204 @@
+@media (min-width: 300px) {
+
+    .search {
+        width: 100%;    
+        margin-bottom: 20px;
+       
+    }
+ 
+    .container-fluid form{
+        display: block;
+         width:80%;
+         margin-left: 10%;
+              
+        }
+    form .con1,.con2,.con3
+        {
+        margin-top: 5px; 
+        }
+ 
+    .job-search {
+        width: 100%;
+        margin-left: 0;
+    }
+    .bot button {
+
+        width:160px;
+        margin-bottom: 5px;
+    }
+    ul {
+        padding-left: 1rem !important;
+    }
+    .all {
+        box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+        padding: 7px;
+        height: 210px;
+        margin-bottom: 15px;
+    }
+}
+@media (min-width: 400px) {
+
+    .search {
+        width: 100%;    
+        margin-bottom: 20px;
+       
+    }
+ 
+    .container-fluid form{
+        display: block;
+         width:80%;
+         margin-left: 10%;
+              
+        }
+    form .con1,.con2,.con3
+        {
+        margin-top: 5px; 
+        }
+ 
+    .job-search {
+        width: 100%;
+        margin-left: 0;
+    }
+    .bot button {
+
+        width:160px;
+        margin-bottom: 5px;
+    }
+    ul {
+        padding-left: 1rem !important;
+    }
+    .all {
+        box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+        padding: 7px;
+        height: 210px;
+        margin-bottom: 15px;
+    }
+}
+@media (min-width: 800px) {
+
+    .search {
+        width: 100%;    
+        margin-bottom: 20px;
+       
+    }
+ 
+    .container-fluid form{
+        display: flex;
+         width:80%;
+         margin-left: 10%;
+              
+        }
+    form .con1,.con2,.con3
+        {
+        margin-top: 5px; 
+        }
+ 
+    .job-search {
+        width: 100%;
+        margin-left: 0;
+    }
+    .bot button {
+
+        width:160px;
+        margin-bottom: 5px;
+    }
+    ul {
+        padding-left: 1rem !important;
+    }
+    .card-job {
+        width: 70%;
+        margin-left: 15%;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px;
+        margin-top: 2%;
+        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+        margin-bottom: 15px;
+    }
+    .all {
+        box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+        padding: 7px;
+        height: 210px;
+        margin-bottom: 15px;
+    }
+}
+@media (min-width: 800px) {
+    .container-fluid form{
+        display: flex;
+         width:70%;
+         margin-left: 15%;
+              
+        }
+ 
+    .card-job {
+        width: 60%;
+        margin-left: 20%;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px;
+        margin-top: 2%;
+        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+        margin-bottom: 15px;
+    }
+  
+}
+@media (min-width: 800px) {
+    .container-fluid form{
+        display: flex;
+         width:60%;
+         margin-left: 20%;
+              
+        }
+ 
+    .card-job {
+        width: 60%;
+        margin-left: 20%;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px;
+        margin-top: 2%;
+        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+        margin-bottom: 15px;
+    }
+  
+}
+@media (min-width: 900px) {
+    .container-fluid form{
+        display: flex;
+         width:60%;
+         margin-left: 20%;
+              
+        }
+ 
+    .card-job {
+        width: 60%;
+        margin-left: 20%;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px;
+        margin-top: 2%;
+        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+        margin-bottom: 15px;
+    }
+  
+}
+@media (min-width: 1000px) {
+    .container-fluid form{
+        display: flex;
+         width:50%;
+         margin-left: 25%;
+              
+        }
+ 
+    .card-job {
+        width: 50%;
+        margin-left: 25%;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px;
+        margin-top: 2%;
+        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+        margin-bottom: 15px;
+    }
+  
+}
